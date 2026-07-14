@@ -1,28 +1,41 @@
-# AI-PDF-Chatbot
-# 📄 AI PDF Chatbot using RAG & LangChain
+# AI PDF Chatbot using RAG & LangChain
 
-An AI-powered document question-answering system that enables users to upload PDF documents and ask natural language questions. The application leverages **Retrieval-Augmented Generation (RAG)** to retrieve relevant document context before generating accurate, context-aware responses using a Large Language Model.
+🚧 **Status:** Work in Progress
 
----
+This project is currently under active development as part of my learning in Retrieval-Augmented Generation (RAG), LangChain, FastAPI, and Generative AI.
 
-# 🎯 Motivation
+## Planned Features
 
-Large Language Models often struggle with answering questions about private or domain-specific documents because they lack access to that information.
+- PDF upload
+- Text extraction
+- Vector embeddings
+- ChromaDB vector store
+- LangChain RAG pipeline
+- Gemini API integration
+- FastAPI backend
+- Streamlit frontend
+- Conversational memory
+- Docker deployment
 
-This project solves that problem by implementing a **Retrieval-Augmented Generation (RAG)** pipeline, allowing the chatbot to retrieve relevant information directly from uploaded PDFs before generating responses.
+## Tech Stack
 
----
+- Python
+- LangChain
+- ChromaDB
+- Gemini API
+- FastAPI
+- Streamlit
+- Docker
 
-# ✨ Features
+## Roadmap
 
-- Upload one or more PDF documents
-- Context-aware question answering using RAG
-- Semantic search using vector embeddings
-- Conversational memory for follow-up questions
-- Source citations for generated responses
-- FastAPI backend with Streamlit web interface
-- Real-time document processing
-
+- [ ] PDF ingestion
+- [ ] Text chunking
+- [ ] Embedding generation
+- [ ] Vector database integration
+- [ ] RAG pipeline
+- [ ] Chat interface
+- [ ] Docker support
 ---
 
 # ⚙️ Architecture
