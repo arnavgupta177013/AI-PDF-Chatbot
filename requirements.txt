@@ -1,0 +1,14 @@
+langchain>=0.3
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+langchain-chroma
+chromadb
+pypdf
+fastapi
+uvicorn[standard]
+python-multipart
+streamlit
+requests
+python-dotenv
